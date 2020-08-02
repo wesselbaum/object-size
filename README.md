@@ -1,25 +1,25 @@
-# object-size
-<!--[![Coverage Status](https://coveralls.io/repos/github/wesselbaum/object-size/badge.svg?branch=Unit_tests_%26_coverage)](https://coveralls.io/github/wesselbaum/object-size?branch=Unit_tests_%26_coverage)
-[![Build Status](https://travis-ci.org/wesselbaum/object-size.svg?branch=master)](https://travis-ci.org/wesselbaum/object-size)
-[![dependencies Status](https://david-dm.org/wesselbaum/object-size/status.svg)](https://david-dm.org/wesselbaum/object-size)-->
+# object-size-cli
+<!--[![Coverage Status](https://coveralls.io/repos/github/wesselbaum/object-size-cli/badge.svg?branch=Unit_tests_%26_coverage)](https://coveralls.io/github/wesselbaum/object-size-cli?branch=Unit_tests_%26_coverage)
+[![Build Status](https://travis-ci.org/wesselbaum/object-size-cli.svg?branch=master)](https://travis-ci.org/wesselbaum/object-size-cli)
+[![dependencies Status](https://david-dm.org/wesselbaum/object-size-cli/status.svg)](https://david-dm.org/wesselbaum/object-size-cli)-->
 
 Find out Object size by URL and selector. 
 
 # Install 
 
 ## Global
-`npm install -g object-size`
+`npm install -g object-size-cli`
 
 ## For one project
-`npm install object-size`
+`npm install object-size-cli`
 
 # Usage
 
 ## Basic command line call
-`object-size`
+`object-size-cli`
 
 ## Call with configuration
-You can either specify a configuration location with the `config` option `object-size --config="path/to/config.json"` or you put a `.os-config.json` somewhere up the tree structure.
+You can either specify a configuration location with the `config` option `object-size-cli --config="path/to/config.json"` or you put a `.os-config.json` somewhere up the tree structure.
 
 ## `package.json` call
 If you have installed this tool for the project you can reference it in your `package.json` in the `scripts` by calling `node_modules/.bin/convention-commit-log [parameters]`. Take a look in this projects `package.json` for more information.

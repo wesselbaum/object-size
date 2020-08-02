@@ -11,17 +11,17 @@
 
 a. Clone your fork of the repo into the current directory
 ```bash
-git clone https://github.com/<your-username>/object-size
+git clone https://github.com/<your-username>/object-size-cli
 ```
 
 b. Navigate to the newly cloned directory
 ```bash
-cd object-size
+cd object-size-cli
 ```
 
 c. Assign the original repo to a remote called `upstream`
 ```bash
-git remote add upstream https://github.com/wesselbaum/object-size
+git remote add upstream https://github.com/wesselbaum/object-size-cli
 ```
 
 #### 2. If you cloned a while ago, get the latest changes from upstream:
