@@ -1,0 +1,36 @@
+{
+  "scenarios": [
+    {
+      "label": "article",
+      "url": "https://devnarrative.com/sass-maps-auffuellen/",
+      "selectors": [
+        "img"
+      ]
+    },
+    {
+      "label": "homepage",
+      "url": "https://devnarrative.com/",
+      "selectors": [
+        ".c-thumbnail img",
+        ".c-thumbnail"
+      ]
+    }
+  ],
+  "viewports": [
+    {
+      "label": "small",
+      "width": 332,
+      "height": 800
+    },
+    {
+      "label": "medium",
+      "width": 612,
+      "height": 800
+    },
+    {
+      "label": "large",
+      "width": 1036,
+      "height": 800
+    }
+  ]
+}

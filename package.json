@@ -1,0 +1,58 @@
+{
+  "name": "object-size",
+  "version": "0.0.1",
+  "description": "Find out Object size by URL and selector.",
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wesselbaum/object-size.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wesselbaum/object-size/issues"
+  },
+  "homepage": "https://github.com/wesselbaum/object-size#readme",
+  "scripts": {
+    "test": "nyc mocha",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "object-size": "./index.js",
+    "test_changelog": "./index.js --config='./changelog_config.json'"
+  },
+  "keywords": [
+    "playwright",
+    "cli",
+    "firefox",
+    "chrome",
+    "object",
+    "selector",
+    "size",
+    "width",
+    "height",
+    "check",
+    "test"
+  ],
+  "author": "Aleksej Wesselbaum",
+  "license": "MIT",
+  "dependencies": {
+    "findup-sync": "^4.0.0",
+    "sort-objects-array": "^1.7.0",
+    "yargs": "^14.2.0",
+    "playwright": "^1.1.1"
+  },
+  "bin": {
+    "object-size": "./index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^12.11.1",
+    "coveralls": "^3.0.7",
+    "mocha": "^6.2.2",
+    "mocha-lcov-reporter": "^1.3.0",
+    "nyc": "^14.1.1"
+  },
+  "os": [
+    "!win32",
+    "!win64"
+  ],
+  "engines": {
+    "node": ">=8"
+  }
+}
